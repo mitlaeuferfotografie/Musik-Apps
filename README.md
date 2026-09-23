@@ -1,12 +1,14 @@
 # Musik-Apps
 
-Minimalistische Übersichtsseite für zwei Musikunterricht-Web-Apps: zwei große,
+Minimalistische Übersichtsseite für drei Musikunterricht-Web-Apps: große,
 anklickbare Karten (Screenshot + Titel), die direkt zur jeweiligen App führen.
 
 - [Rhythmus-Generator](https://github.com/mitlaeuferfotografie/Rhythmus-Generator) -
   freies Bau-Werkzeug für eigene Rhythmen, ohne Bewertung.
 - [Rhythmus-Trainer](https://github.com/mitlaeuferfotografie/Rhythmus-Trainer) -
   Hör-Übungsspiel mit Punkten und Levels.
+- [Noten-Rätsel](https://github.com/mitlaeuferfotografie/Noten-Raetsel) -
+  Wissensquiz zu Notenwerten mit sechs Spielformaten.
 
 Reines Vanilla HTML/CSS, kein Build-Schritt, kein Framework - passt sich
 responsiv jeder Bildschirmgröße an (ein Spalte auf schmalen Bildschirmen,
@@ -15,7 +17,7 @@ zwei Spalten ab ca. 600px) und unterstützt automatisch Hell-/Dunkelmodus
 
 Die Screenshots in `assets/` sind reale, per Headless-Chrome erzeugte
 Aufnahmen der jeweiligen App (Stand: 2026-09-23) - bei größeren optischen
-Änderungen an einer der beiden Apps sollten sie aktualisiert werden.
+Änderungen an einer der drei Apps sollten sie aktualisiert werden.
 
 ## Lokal starten
 
