@@ -32,3 +32,30 @@ Doppelklick im Browser öffnen.
 
 - Repository: https://github.com/mitlaeuferfotografie/Musik-Apps
 - Live-URL: https://mitlaeuferfotografie.github.io/Musik-Apps/
+
+## Impressum &amp; Datenschutz (verbindliche Konvention)
+
+`impressum.html` in diesem Repo ist die EINE zentrale Impressum-/
+Datenschutz-Seite für alle Musik-Apps - Adresse/E-Mail werden nur hier
+gepflegt. Kein anderes Repo dupliziert den Text; alle anderen Apps
+verlinken nur per absoluter URL:
+`https://mitlaeuferfotografie.github.io/Musik-Apps/impressum.html`
+
+Für jede App (auch jede zukünftige) gilt die Zwei-Klick-Regel - von jedem
+Zustand der App aus in maximal zwei Klicks erreichbar, klar mit
+"Impressum" beschriftet (kein reines Icon):
+
+- **App mit Einstellungsmenü (⚙):** "Impressum" als eigener, klar
+  beschrifteter Link/Menüpunkt am Ende des Einstellungen-Flyouts (Klasse
+  `.settings-legal-link` - siehe Rhythmus-Generator/-Trainer/Noten-Rätsel
+  als Vorlage). NICHT als zusätzlicher Footer-Link auf der Spielfläche.
+  Voraussetzung: Das Einstellungsmenü selbst muss aus JEDEM Bildschirm der
+  App heraus erreichbar sein (auch mitten in einer laufenden Übung/Runde,
+  nicht nur auf dem Startbildschirm) - das im Zweifel vor dem Ergänzen des
+  Impressum-Links einmal explizit prüfen.
+- **App ohne Einstellungsmenü** (z. B. diese Übersichtsseite): kleiner,
+  unauffälliger Footer-Link ("Impressum", kleine Schrift, gedeckte Farbe)
+  unten auf der Seite.
+
+Neue Apps bekommen diesen Menüpunkt von Anfang an, ohne dass es jedes Mal
+extra erwähnt werden muss.

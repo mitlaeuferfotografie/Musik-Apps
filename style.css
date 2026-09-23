@@ -111,6 +111,18 @@ body {
   text-align: center;
 }
 
+.page-footer {
+  margin-top: 48px;
+  font-size: 0.8rem;
+}
+
+.page-footer a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.page-footer a:hover { text-decoration: underline; }
+
 @media (max-width: 480px) {
   .page-header h1 { font-size: 1.6rem; }
   body { padding: 36px 16px 48px; }
