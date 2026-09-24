@@ -85,3 +85,19 @@ derselben Stelle hätte Kinder verwirrt.
 Neue Apps übernehmen dieses Snippet (samt `.toolbar-home-link`-CSS aus
 einer der drei bestehenden Apps) als letztes Kind der Toolbar, ohne dass
 es jedes Mal extra erwähnt werden muss.
+
+## Icon je App (verbindliche Konvention)
+
+Jede App hat ein eigenes Emoji-Icon, das an ZWEI Stellen identisch
+erscheint: im eigenen `<h1>`-Header der App UND vor dem Titel auf der
+jeweiligen Karte hier in der Übersicht (`.card-title`) - so erkennen auch
+Kinder, die noch nicht lesen können, welche App gemeint ist.
+
+- 🎼 Musik-Apps (diese Übersichtsseite, Notenschlüssel)
+- 🎵 Rhythmus-Generator (Note)
+- 👂 Rhythmus-Trainer (Ohr, für die Hör-Übung)
+- ❓ Noten-Rätsel (Fragezeichen, für das Quiz)
+
+Eine neue App bekommt beim Anlegen ebenfalls ein eigenes, thematisch
+passendes Icon nach diesem Muster - an beiden Stellen gleichzeitig
+ergänzen.
