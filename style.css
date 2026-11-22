@@ -64,9 +64,35 @@ body {
   width: 100%;
   max-width: 900px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 24px;
 }
+
+.sections {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section-title {
+  margin: 0 0 6px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--bg-3);
+  letter-spacing: 0.02em;
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 6px;
+}
+
+.section-text {
+  margin: 0 0 16px;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.section-title + .grid { margin-top: 16px; }
 
 .card {
   display: flex;
@@ -85,6 +111,7 @@ body {
 .card-accent-1 { border-top-color: #d97706; }
 .card-accent-2 { border-top-color: #0284c7; }
 .card-accent-3 { border-top-color: #0d9488; }
+.card-accent-4 { border-top-color: #b45309; }
 
 .card:hover,
 .card:focus-visible {

@@ -1,7 +1,10 @@
 # Musik-Apps
 
-Minimalistische Übersichtsseite für drei Musikunterricht-Web-Apps: große,
-anklickbare Karten (Screenshot + Titel), die direkt zur jeweiligen App führen.
+Minimalistische Übersichtsseite für Musikunterricht-Web-Apps: große,
+anklickbare Karten (Screenshot + Titel), die direkt zur jeweiligen App führen,
+gegliedert in zwei Kategorien.
+
+**Übungs-Apps** (jeweils eigenes Repo):
 
 - [Rhythmus-Generator](https://github.com/mitlaeuferfotografie/Rhythmus-Generator) -
   freies Bau-Werkzeug für eigene Rhythmen, ohne Bewertung.
@@ -9,6 +12,23 @@ anklickbare Karten (Screenshot + Titel), die direkt zur jeweiligen App führen.
   Hör-Übungsspiel mit Punkten und Levels.
 - [Noten-Rätsel](https://github.com/mitlaeuferfotografie/Noten-Raetsel) -
   Wissensquiz zu Notenwerten mit sechs Spielformaten.
+
+**Vertonungen** (stumme Filme, zu denen die Kinder selbst Musik machen -
+liegen direkt in diesem Repo als Unterordner):
+
+- [Die Lorenfahrt](https://mitlaeuferfotografie.github.io/Musik-Apps/lorenfahrt/)
+  (`lorenfahrt/`) - animierte Fahrt mit einer Lore durch einen dunklen
+  Stollen, 7 Szenen, gut eine Minute, umschaltbar zwischen Seitenansicht und
+  Mitfahrt (Ego-Perspektive). Eingebauter QR-Code (Knopf "QR-Code" bzw.
+  Taste Q) zum Öffnen auf Tablets. Schriften liegen lokal in
+  `lorenfahrt/fonts/` (kein Google-Fonts-Abruf, DSGVO). Dunkles Design
+  bewusst als Ausnahme von der hellen Palette: Es ist ein Film im Stollen.
+  Entstanden für die Reihe "Ritter Rost macht Urlaub" (Stunde 3), eigene
+  Gestaltung ohne Figuren/Bilder aus dem Buch.
+
+Eine neue Vertonung kommt als eigener Unterordner hierher (mit Zurück-Link
+und Impressum-Link wie unten beschrieben) und bekommt eine Karte im Abschnitt
+"Vertonungen" in `index.html`.
 
 Reines Vanilla HTML/CSS, kein Build-Schritt, kein Framework - passt sich
 responsiv jeder Bildschirmgröße an (eine Spalte auf schmalen Bildschirmen,
@@ -19,7 +39,7 @@ der Übergang von der Übersicht in eine App sich nahtlos anfühlt (siehe
 `:root`-Variablen in style.css, identisch zu denen der drei App-Repos).
 
 Die Screenshots in `assets/` sind reale, per Headless-Chrome erzeugte
-Aufnahmen der jeweiligen LIVE-App (Stand: 2026-09-24) - bei größeren
+Aufnahmen der jeweiligen LIVE-App (Stand: 2026-09-24; `lorenfahrt.png`: 2026-11-22) - bei größeren
 optischen Änderungen an einer der drei Apps sollten sie aktualisiert
 werden (Befehl siehe Git-Historie dieser Datei/`CLAUDE.md`).
 
@@ -97,6 +117,7 @@ Kinder, die noch nicht lesen können, welche App gemeint ist.
 - 🎵 Rhythmus-Generator (Note)
 - 👂 Rhythmus-Trainer (Ohr, für die Hör-Übung)
 - ❓ Noten-Rätsel (Fragezeichen, für das Quiz)
+- ⛏️ Die Lorenfahrt (Spitzhacke, Bergwerk)
 
 Eine neue App bekommt beim Anlegen ebenfalls ein eigenes, thematisch
 passendes Icon nach diesem Muster - an beiden Stellen gleichzeitig
